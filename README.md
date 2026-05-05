@@ -7,7 +7,7 @@ A tool for designing flow-sculpting microfluidic channels and simulating resulti
 You can download the precomputed libraries here:
 https://drive.google.com/drive/folders/16BtjLV74uk7A9ZAgGJoo5kOc5aUSpx3p?usp=drive_link
 
-After downloading, place the folders in the project root directory:
+after downloading, place them in the corresponding folders:
 
 ```text
 project_root/
@@ -17,7 +17,7 @@ project_root/
 ├── visualization_v2.py
 ```
 
-### Quick Start
+## Quick Start
 
 run the visualization tool:
 
@@ -25,7 +25,7 @@ run the visualization tool:
 python visualization_v2.py
 ```
 
-#### Generate Your Own Libraries
+## Generate Your Own Libraries
 
 you can also generate your own libraries with raw COMSOL streamline data.
 
