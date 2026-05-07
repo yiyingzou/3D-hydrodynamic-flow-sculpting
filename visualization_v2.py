@@ -577,10 +577,10 @@ class FlowSimulationApp:
                 row_frame,
                 values=[""],
                 command=lambda idx=i: self.on_pillar_combo_cascade(idx),
-                width=95,
+                width=150,
                 font=self.style_widget_entry.get("font", ("Arial", 16))
             )
-            slider.pack(side="right")
+            slider.pack(side="right", fill="x", expand=True)
 
             self.pillar_comboboxes[name] = slider
 
